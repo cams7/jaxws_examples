@@ -10,11 +10,11 @@
 	</parent>
 
 
-	<artifactId>CalculatorWSApplication</artifactId>
+	<artifactId>jaxws_webapp</artifactId>
 	<packaging>war</packaging>
 
-	<name>Calculatora - WS</name>
-	<description>Calculatora - WEB Service</description>
+	<name>Aplicação - WEB Service</name>
+	<description>WEB Service</description>
 
 	<dependencies>
 		<dependency>
@@ -94,7 +94,7 @@
 				<configuration>
 					<url>http://localhost:8080/manager/text</url>
 					<server>TomcatServer</server>
-					<path>/CalculatorWSApplication</path>
+					<path>/jaxws_webapp</path>
 				</configuration>
 			</plugin>
 		</plugins>

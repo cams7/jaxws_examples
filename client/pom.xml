@@ -10,10 +10,10 @@
 	</parent>
 
 
-	<artifactId>CalculatorWS_Client_Application</artifactId>
+	<artifactId>jaxws_clientapp</artifactId>
 	<packaging>jar</packaging>
 
-	<name>Calculadora - Client WS</name>
+	<name>Aplicação - Client WS</name>
 	<description>Calculadora - Cliente WEB Service</description>
 
 	<build>
@@ -45,10 +45,10 @@
 						</goals>
 						<configuration>
 							<wsdlUrls>
-                						<wsdlLocation>http://localhost:8080/CalculatorWSApplication/CalculatoraWS?wsdl</wsdlLocation>
+                						<wsdlLocation>http://localhost:8080/jaxws_webapp/CalculatoraWS?wsdl</wsdlLocation>
             						</wsdlUrls>							
 							<packageName></packageName>
-							<wsdlLocation>http://localhost:8080/CalculatorWSApplication/CalculatoraWS?wsdl</wsdlLocation>
+							<wsdlLocation>http://localhost:8080/jaxws_webapp/CalculatoraWS?wsdl</wsdlLocation>
 							<staleFile>${project.build.directory}/jaxws/stale/CalculatoraWS.stale</staleFile>
 						</configuration>
 						<id>wsimport-generate-CalculatoraWS</id>
